@@ -1,0 +1,21 @@
+{
+  "name": "mcp-anki",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@mcp-sdk/server": "^0.0.7",
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "@types/node": "^20.0.0",
+    "axios": "^1.10.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "typescript": "^5.0.0"
+  }
+}
